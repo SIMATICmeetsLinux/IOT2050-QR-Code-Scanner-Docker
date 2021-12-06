@@ -17,7 +17,7 @@
 
 The IOT2050 application was developed to read barcodes and QR-codes by using an external USB scanner, decode the codes and transmit them using MQTT. The following example uses Docker and Node-Red to do so.
 
-![overview application](images/overview.png)
+![overview application](docs/graphics/overview.png)
 
 ## **Hardware**
 
