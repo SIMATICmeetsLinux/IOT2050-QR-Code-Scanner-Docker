@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+
+    scanner-service:
+        image: mypython:alpine
+        build: ./
+        network_mode: "host"
+        restart: on-failure
+        privileged: true
+        mem_limit: 100mb

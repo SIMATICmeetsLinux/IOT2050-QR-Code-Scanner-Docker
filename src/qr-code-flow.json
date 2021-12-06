@@ -1,0 +1,63 @@
+[
+    {
+        "id": "bbe07734.e44108",
+        "type": "tab",
+        "label": "QR-Code-Scanner",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d3fa2b76.2e46a8",
+        "type": "mqtt in",
+        "z": "bbe07734.e44108",
+        "name": "",
+        "topic": "qrcode",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "75f88ad1.671364",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "80d1a8b8.ef9ec8"
+            ]
+        ]
+    },
+    {
+        "id": "80d1a8b8.ef9ec8",
+        "type": "debug",
+        "z": "bbe07734.e44108",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "75f88ad1.671364",
+        "type": "mqtt-broker",
+        "name": "mqtt_broker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]
