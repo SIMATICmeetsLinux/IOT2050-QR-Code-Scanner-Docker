@@ -38,7 +38,7 @@ In addition, the barcode scanner must now be connected to the IOT2050 via USB. T
 
     lsusb
 
-![Scanner connected](images/device_lsusb.png)
+![Scanner connected](docs/graphics/device_lsusb.png)
 
 An update must be performed for the system and *git* must be installed. The following commands are executed for this:
 
@@ -60,7 +60,7 @@ Use the following commands:
 
 If the installation was successful, the output should contain the following:
 
-![successful installation](images/docker_installation.png)
+![successful installation](docs/graphics/docker_installation.png)
 
 For more information on installing Docker click [here](https://docs.docker.com/engine/install/debian/).
 
@@ -75,7 +75,7 @@ For more information on installing Docker click [here](https://docs.docker.com/e
 To clone the latest version of the application from Github use the following commands:
 
     cd /home
-    git clone https://github.com/uwedaeumler/qr-code-scanner  [Link einfügen]
+    git clone https://github.com/SIMATICmeetsLinux/IOT2050-QR-Code-Scanner-Docker  [This repository]
 
 The repository with the application files can now be opened by the following command:
 
@@ -87,7 +87,7 @@ The following command in the application-repository can be used to build the doc
 
     docker-compose build
 
-![docker-file built successfully](images/docker_build_successfully.png)
+![docker-file built successfully](docs/graphics/docker_build_successfully.png)
 
 ## **Optional: Import Node-Red Flow**
 
@@ -101,7 +101,7 @@ Import the flow and press the "deploy-button":
 
 If all configurations are set correctly, the flow will look like the following.
 
-![Node-Red Flow](images/node-red-flow.png)
+![Node-Red Flow](docs/graphics/node-red-flow.png)
 
 ## **Start the QR-Code-Application**
 
@@ -111,7 +111,7 @@ To start the docker-application go to the application-directory (qr-code-scanner
 
 The application is ready when it is successfully launched:
 
-![successfully launched](images/launched_success.png)
+![successfully launched](docs/graphics/launched_success.png)
 
 Barcodes and QR-Codes can now be read using the scanner. These are then displayed in the terminal and transferred to Node-Red via the mqtt node.
 
@@ -119,10 +119,10 @@ The following examples can be used for testing:
 
 |Examples|Input/Output|
 |-|-|
-|Barcode|![barcode example](images/example-barcode.png)|
-|QR-Code|![qr-code example](images/example-qr-code.png)|
-|Barcode output (terminal)|![example output](images/example-output.png)|
-|Barcode output (node-red)|![node-red output](images/node-red-output.png)
+|Barcode|![barcode example](docs/graphics/example-barcode.png)|
+|QR-Code|![qr-code example](docs/graphics/example-qr-code.png)|
+|Barcode output (terminal)|![example output](docs/graphics/example-output.png)|
+|Barcode output (node-red)|![node-red output](docs/graphics/node-red-output.png)
 
 ## **Related Links**
 
