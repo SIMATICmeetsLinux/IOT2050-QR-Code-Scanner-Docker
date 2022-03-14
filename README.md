@@ -10,7 +10,7 @@
   - [**Optional: Import Node-Red Flow**](#optional-import-node-red-flow)
   - [**Start the QR-Code-Application**](#start-the-qr-code-application)
   - [**Related Links**](#related-links)
-  - [**Contribution**](#contribution)
+  - [**Contribution and Contribution License Agreement**](#contribution-and-contribution-license-agreement)
   - [**License and Legal Information**](#license-and-legal-information)
 
 ## **Overview**
@@ -132,9 +132,9 @@ The following examples can be used for testing:
 |2|SIMATIC IOT2050 Getting Started: [https://support.industry.siemens.com/tf/ww/en/posts/238945/](https://support.industry.siemens.com/tf/ww/en/posts/238945/)|
 |3|Operating Instructions: [https://support.industry.siemens.com/cs/ww/en/view/109779016](https://support.industry.siemens.com/cs/ww/en/view/109779016)|
 
-## **Contribution**
+## **Contribution and Contribution License Agreement**
 
-Thanks for your interest in contributing. Anybody is free to report bugs, unclear documenation, and other problems regarding this repository in the Issues section or, even better, is free to propose any changes to this repository using Merge Requests.
+Thanks for your interest in contributing. Anybody is free to report bugs, unclear documenation, and other problems regarding this repository in the Issues section or, even better, is free to propose any changes to this repository using Merge Requests. For more information please check the [Contribution License Agreement](docs/Siemens_CLA.pdf).
 
 ## **License and Legal Information**
 
