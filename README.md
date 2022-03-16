@@ -43,7 +43,6 @@ In addition, the barcode scanner must now be connected to the IOT2050 via USB. T
 An update must be performed for the system and *git* must be installed. The following commands are executed for this:
 
     apt-get update
-    apt-get upgrade
     apt-get install git
 
 ## **Install Docker on the IOT2050**
